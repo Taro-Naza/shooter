@@ -15,12 +15,12 @@ func _process(_delta):
 	velocity =  direction * SPEED 
 	move_and_slide()
 #
-	if Input.is_action_pressed('primary action'): 
+	if Input.is_action_pressed('primary action') && can_laser: 
 		print('Shooting')
 		can_laser = false
 		$Timer.start()
 		
-	if Input.is_action_pressed('secondary action'):
+	if Input.is_action_pressed('secondary action') && can_grenade:
 		print('throw grenade')
 		can_grenade = false 
 		$Timer2.start()
