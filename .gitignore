@@ -2,3 +2,6 @@
 .godot/
 graphics/
 !graphics/player
+!graphics/enemies/drone.png
+!graphics/objects/billboard.png
+!graphics/objects/gate.png
