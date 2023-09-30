@@ -7,10 +7,11 @@
 radius = 67.4759
 
 [node name="Player" type="CharacterBody2D"]
+rotation = 1.5708
 script = ExtResource("1_vl18a")
 
 [node name="PlayerImage" type="Sprite2D" parent="."]
-position = Vector2(0, -35)
+position = Vector2(0, -34)
 texture = ExtResource("1_7rjd5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
